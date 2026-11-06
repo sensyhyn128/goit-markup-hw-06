@@ -16,6 +16,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
   </head>
 
@@ -700,7 +701,7 @@
       </div>
     </footer>
 
-    <div class="modal-overlay" id="modal">
+    <!-- <div class="modal-overlay" id="modal">
       <div class="modal">
         <button class="btn-icon" type="button">
           <svg class="close-icon" width="8" height="8">
@@ -785,10 +786,119 @@
           <button class="modal-btn" type="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
 
     <div class="mobile-menu" id="mobile-menu">
-      <div class="container"></div>
+      <div class="container mobile-container">
+        <button type="button" class="mobile-close-btn">
+          <svg class="mobile-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-nav">
+          <ul class="mobile-nav-list">
+            <li>
+              <a class="mobile-nav-link is-active" href="#features">Features</a>
+            </li>
+            <li>
+              <a class="mobile-nav-link" href="#team">Team</a>
+            </li>
+            <li>
+              <a class="mobile-nav-link" href="#portfolio">Portfolio</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="mobile-address">
+          <ul class="mobile-address-list">
+            <li class="mobile-address-item">
+              <a class="mobile-address-link is-active" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mobile-address-item">
+              <a class="mobile-address-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <div class="mobile-wrapper">
+          <ul class="mobile-icons-item">
+            <li class="mobile-icons-wrapper">
+              <a
+                class="mobile-social-link"
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <svg
+                  class="mobile-icon"
+                  width="24"
+                  height="24"
+                  aria-hidden="true"
+                >
+                  <use href="./images/icons.svg#icon-Instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-icons-wrapper">
+              <a
+                class="mobile-social-link"
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Twitter"
+              >
+                <svg
+                  class="mobile-team-icon"
+                  width="24"
+                  height="24"
+                  aria-hidden="true"
+                >
+                  <use href="./images/icons.svg#icon-Twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-icons-wrapper">
+              <a
+                class="mobile-social-link"
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+              >
+                <svg
+                  class="mobile-icon"
+                  width="24"
+                  height="24"
+                  aria-hidden="true"
+                >
+                  <use href="./images/icons.svg#icon-Facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-icons-wrapper">
+              <a
+                class="mobile-social-link"
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
+                <svg
+                  class="mobile-icon"
+                  width="24"
+                  height="24"
+                  aria-hidden="true"
+                >
+                  <use href="./images/icons.svg#icon-LinkedIn"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </body>
 </html>
