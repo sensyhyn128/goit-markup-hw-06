@@ -1,0 +1,148 @@
+.footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-info {
+  margin-right: 120px;
+}
+
+.footer-logo {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.footer-logo span {
+  color: #4d5ae5;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  width: 264px;
+}
+
+.footer-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.icons-item-footer {
+  display: flex;
+  gap: 16px;
+}
+
+.icons-wrapper-footer {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  color: #f4f4fd;
+  fill: currentColor;
+  border-radius: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-title-subscribe {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-input {
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-contact {
+  margin-left: auto;
+}
+
+.btn-subscribe {
+  background-color: #4d5ae5;
+  border: none;
+  padding: 8px 24px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  color: #fff;
+  width: 165px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.telegram-icon-btn {
+  fill: #fff;
+}
+
+.footer-form {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-input::placeholder {
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.footer-input:hover,
+.footer-input:focus {
+  outline: none;
+  border-color: #31d0aa;
+}
+
+.btn-subscribe:hover,
+.btn-subscribe:focus {
+  background-color: #31d0aa;
+}

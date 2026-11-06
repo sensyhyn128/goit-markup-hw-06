@@ -1,0 +1,48 @@
+.feature-title {
+    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.feature-description {
+    color: #434455;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.features-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.feature-title {
+    margin-bottom: 8px;
+    
+}
+
+.features-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.features {
+    padding: 120px 0;
+}
+
+.icons-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    background-color: #f4f4fd;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+}
