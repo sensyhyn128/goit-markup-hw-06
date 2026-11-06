@@ -1,0 +1,27 @@
+.mobile-menu {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  /* pointer-events: none;
+  opacity: 0;
+  visibility: hidden; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-menu.is-open {
+  pointer-events: auto;
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}
