@@ -35,7 +35,7 @@
 }
 
 .features {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .icons-item {
@@ -73,7 +73,7 @@
   }
 }
 
-@media (min-width: 1168px) {
+@media (min-width: 1158px) {
   .feature-title {
     font-weight: 500;
     font-size: 20px;
@@ -91,5 +91,9 @@
 
   .features-item {
     width: calc((100% - 3 * 24px) / 4);
+  }
+
+  .features {
+    padding: 120px 0;
   }
 }

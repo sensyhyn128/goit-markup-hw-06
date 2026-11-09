@@ -48,7 +48,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 72px;
+  flex-direction: column;
 }
 
 .team-wrapper {
@@ -87,4 +88,20 @@
 .team-social-link:hover,
 .team-social-link:focus {
   background-color: #404bbf;
+}
+
+@media (min-width: 768px) {
+  .team-list {
+    gap: 64px 24px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1158px) {
+  .team-list {
+    gap: 24px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
 }
