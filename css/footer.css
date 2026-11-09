@@ -183,7 +183,6 @@
 @media (min-width: 1158px) {
   .footer-container {
     max-width: 1158px;
-    padding: 0 15px;
     box-sizing: border-box;
     flex-wrap: nowrap;
     align-items: flex-start;
@@ -196,5 +195,9 @@
 
   .footer-contact {
     margin-left: 83px;
+  }
+
+  .footer {
+    padding: 100px 0;
   }
 }

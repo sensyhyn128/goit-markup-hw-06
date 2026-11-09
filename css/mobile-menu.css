@@ -6,9 +6,9 @@
   width: 100%;
   height: 100%;
   z-index: 1000;
-  pointer-events: none;
+  /* pointer-events: none;
   opacity: 0;
-  visibility: hidden;
+  visibility: hidden; */
 }
 
 .mobile-menu.is-open {
@@ -76,12 +76,12 @@
 
 .mobile-address-link:hover,
 .mobile-address-link:focus {
-  color: #404bbf;
+  color: #4d5ae5;
 }
 
 .mobile-icons-item {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 40px;
 }

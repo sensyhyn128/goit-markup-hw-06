@@ -1,6 +1,6 @@
 .hero {
   background-color: #2e2f42;
-  padding: 188px 0;
+  padding: 72px 0;
   background-image:
     linear-gradient(
       180deg,
@@ -86,6 +86,10 @@
         url(../images/hero-bg-desktop-@2x.jpg) 2x
       );
   }
+
+  .hero {
+    padding: 112px 0;
+  }
 }
 
 @media (min-width: 768px) {
@@ -102,5 +106,9 @@
 @media (min-width: 1158px) {
   .hero-title {
     margin-bottom: 48px;
+  }
+
+  .hero {
+    padding: 188px 0;
   }
 }
