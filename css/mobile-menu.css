@@ -6,9 +6,9 @@
   width: 100%;
   height: 100%;
   z-index: 1000;
-  /* pointer-events: none;
+  pointer-events: none;
   opacity: 0;
-  visibility: hidden; */
+  visibility: hidden;
 }
 
 .mobile-menu.is-open {
