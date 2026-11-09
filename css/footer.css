@@ -87,7 +87,7 @@
 }
 
 .footer-input {
-  width: 264px;
+  width: 288px;
   height: 40px;
   padding: 8px 16px;
   background-color: transparent;
@@ -172,6 +172,10 @@
   }
 
   .footer-text {
+    width: 264px;
+  }
+
+  .footer-input {
     width: 264px;
   }
 }
