@@ -42,10 +42,10 @@
   margin-right: 156px;
 }
 
-.mobile-nav-link.is-active,
+/* .mobile-nav-link.is-active,
 .mobile-address-link.is-active {
-  color: #404bbf;
-}
+  color: #4d5ae5;
+} */
 
 .mobile-nav-list {
   display: flex;
@@ -59,8 +59,14 @@
   margin-bottom: 48px;
 }
 
-.mobile-nav-link:hover,
+/* .mobile-nav-link:hover,
 .mobile-nav-link:focus {
+  color: #404bbf;
+} */
+
+.mobile-nav-link:hover,
+.mobile-nav-link:focus,
+.mobile-nav-link.is-active {
   color: #404bbf;
 }
 
@@ -74,8 +80,14 @@
   display: block;
 }
 
-.mobile-address-link:hover,
+/* .mobile-address-link:hover,
 .mobile-address-link:focus {
+  color: #4d5ae5;
+} */
+
+.mobile-address-link:hover,
+.mobile-address-link:focus,
+.mobile-address-link.is-active {
   color: #4d5ae5;
 }
 
